@@ -18,7 +18,8 @@
 #ifndef TwisterClasses_h
 #define TwisterClasses_h
 
-#include "WProgram.h"
+#include "Arduino.h" // for IDE 1.0 and higher
+// #include "WProgram.h" // if using IDE 0.X
 
 class Buzzer
 {

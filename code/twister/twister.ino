@@ -35,7 +35,7 @@ int verPCB = 1;
  
  */
  
-boolean debugMode = false;
+boolean debugMode = true;
 boolean printState = false;
 
 /*   SAVE STATE?

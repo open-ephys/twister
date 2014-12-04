@@ -43,7 +43,6 @@ void updateServo() {
 
     twister.isTurningFWD = false;
 
-  // This is where it's fucking up!
   } else if (twister.totalTurns <= inputs.fwdTurns - inputs.revTurns && twister.isTurning && !twister.isTurningFWD) {
     
     myservo.writeMicroseconds(stopped);
